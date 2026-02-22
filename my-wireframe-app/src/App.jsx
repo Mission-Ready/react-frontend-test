@@ -142,7 +142,6 @@ const DashboardView = () => {
                 <div className="absolute inset-0 rounded-full border-8 border-slate-900 border-t-transparent border-l-transparent transform rotate-45"></div>
                 <span className="font-bold text-lg">70%</span>
              </div>
-             <div className="absolute top-4 left-4"><WireLine width="w-16" height="h-3"/></div>
           </Card>
         </div>
       </div>
@@ -416,12 +415,6 @@ const SettingsView = () => {
                    <ChevronDown size={16} className="text-slate-400" />
                 </div>
               ))}
-            </div>
-            {/* Left side lines simulating descriptions */}
-            <div className="absolute top-1/2 left-6 transform -translate-y-1/2 space-y-4">
-               <WireLine width="w-16" height="h-2" />
-               <WireLine width="w-16" height="h-2" />
-               <WireLine width="w-16" height="h-2" />
             </div>
           </Card>
 
