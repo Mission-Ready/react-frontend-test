@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* Optional: Keep the font for the wireframe look */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
